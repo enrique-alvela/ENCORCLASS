@@ -251,12 +251,12 @@ ephone-dn 8
 ephone-dn 10
    number 2227
 Ephone 1
-  Mac-address ccd8.c1fb.0817
+  Mac-address ccd8.c1fb.2325
   type 8945
   button 1:1 2:2 3:3 4:9
   restart
 Ephone 2
-  Mac-address ccd8.c1fb.161b
+  Mac-address ccd8.c1fb.0817
   type 8945
   button 1:5 2:6 3:7 4:10
   restart  
@@ -648,4 +648,5 @@ exit
           
 sip-ua
 sip-server ipv4:192.168.k.1
+
 
