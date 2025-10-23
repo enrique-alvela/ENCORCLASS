@@ -296,6 +296,11 @@ ip vrf clientBSPa
    rd 888:5
    route-target 69666:5
    exit
+ip vrf clientUBa
+   rd 2:6
+   route-target 22:22
+   exit
+
 ***
 R1:pez
 config t
@@ -315,6 +320,10 @@ ip vrf clientBSPb
   rd 888:5
   route-target 69666:5
   exit
+ip vrf clientUBb
+   rd 2:6
+   route-target 22:22
+   exit
 **********
 R4-PEa#show ip vrf
   Name                             Default RD          Interfaces
@@ -706,6 +715,7 @@ interface nve 1
    ingress-replication protocol static
      peer-ip 10.10.10.10
 	 exit
+
 
 
 
